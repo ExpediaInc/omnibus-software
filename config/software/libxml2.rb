@@ -30,7 +30,7 @@ version "2.9.1" do
   source md5: "9c0cfef285d5c4a5c80d00904ddab380"
 end
 
-source url: "ftp://xmlsoft.org/libxml2/libxml2-#{version}.tar.gz"
+source url: "https://ean-core-dev.s3.amazonaws.com/omnibus-software/libxml2-#{version}.tar.gz"
 
 relative_path "libxml2-#{version}"
 
